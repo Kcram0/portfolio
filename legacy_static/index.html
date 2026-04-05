@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Ramchandra Kadiya — Cybersecurity Analyst specializing in digital forensics, malware analysis, and penetration testing.">
+  <title>Ramchandra Kadiya | Cybersecurity Portfolio</title>
+
+  <!-- Fonts: Orbitron (cyberpunk display) + JetBrains Mono (terminal body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="1page1.css" />
+</head>
+
+<body>
+  <!-- ========== BACKGROUND FX ========== -->
+  <div class="cyber-grid" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="ambient-orb orb-cyan" aria-hidden="true"></div>
+  <div class="ambient-orb orb-magenta" aria-hidden="true"></div>
+
+  <!-- CUSTOM CURSOR (desktop only via CSS) -->
+  <div id="customCursor" class="custom-cursor" aria-hidden="true">
+    <div class="cursor-dot"></div>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="siteHeader">
+    <a href="#" class="logo" aria-label="Home">
+      <span class="logo-bracket">[</span>RK<span class="logo-bracket">]</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="mobileNav" role="navigation">
+      <a href="#hero" class="nav-link active">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#" class="btn btn-cyber">Download Resume</a>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <main class="hero" id="hero">
+    <section class="hero-content">
+      <div class="hero-tag-line">
+        <span class="tag-decorator"></span>
+        <p class="hero-tags">CYBERSECURITY &bull; DIGITAL FORENSICS &bull; MALWARE ANALYSIS</p>
+      </div>
+
+      <h1 class="hero-name glitch" id="heroName" data-text="Ramchandra Kadiya">
+        Ramchandra Kadiya
+      </h1>
+
+      <h2 class="hero-role">
+        <span class="typing-prefix">&gt;&gt;</span> Cybersecurity Student &amp; Analyst
+      </h2>
+
+      <p class="hero-text">
+        I'm a cybersecurity graduate student specializing in digital forensics, malware analysis,
+        and network security. I bring hands-on experience in penetration testing, ethical hacking,
+        and threat analysis using tools such as Nmap, Wireshark, Nessus, Metasploit, and Burp Suite.
+        My background includes researching ransomware methodologies, conducting social engineering
+        simulations, and analyzing authentication protocols like NTLM, Kerberos, and LDAP.
+      </p>
+
+      <div class="hero-actions">
+        <a href="projects.html" class="btn btn-neon">
+          <span class="btn-text">View Projects</span>
+          <span class="btn-shine"></span>
+        </a>
+        <a href="#" class="btn btn-ghost">Download Resume</a>
+      </div>
+    </section>
+
+    <section class="hero-visual">
+      <div class="avatar-frame">
+        <div class="frame-corner top-left"></div>
+        <div class="frame-corner top-right"></div>
+        <div class="frame-corner bottom-left"></div>
+        <div class="frame-corner bottom-right"></div>
+        <img src="avatar.png" class="hero-avatar" alt="Ramchandra Kadiya" loading="eager">
+        <div class="scanner-line"></div>
+        <div class="avatar-hud">
+          <span>STATUS: ONLINE</span>
+          <span class="hud-dot"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills-section" id="skills">
+    <div class="section-header">
+      <span class="section-tag">&lt;skills&gt;</span>
+      <h2 class="section-title">Technical Arsenal</h2>
+      <p class="section-sub">Core cybersecurity and forensic capabilities.</p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card skill-featured">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Digital Forensics</h3>
+        <p class="skill-desc">Expertise in evidence documentation, forensic tool validation, and extracting critical
+          intelligence from compromised digital systems.</p>
+        <div class="skill-badge">PRIMARY</div>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Penetration Testing</h3>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Network Security</h3>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Malware Analysis</h3>
+      </article>
+      <article class="skill-card skill-wide">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Python Scripting &amp; Automation</h3>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">OSINT Investigations</h3>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Threat Intelligence</h3>
+      </article>
+      <article class="skill-card">
+        <div class="card-accent-line"></div>
+        <h3 class="skill-title">Vulnerability Assessment</h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section class="section achievements-section" id="achievements">
+    <div class="section-header">
+      <span class="section-tag">&lt;achievements&gt;</span>
+      <h2 class="section-title">Mission Log</h2>
+      <p class="section-sub">Milestones reflecting growth, innovation, and hands-on experience.</p>
+    </div>
+
+    <div class="achievements-grid">
+      <article class="achievement-card">
+        <div class="card-accent-line accent-cyan"></div>
+        <div class="achievement-meta">
+          <span class="achievement-badge badge-cyan">PARTICIPATED</span>
+        </div>
+        <h3 class="achievement-title">AI Chatbot Hackathon</h3>
+        <p class="achievement-desc">
+          Collaborated with a teammate to design and deploy an intelligent chatbot using Google's
+          Gemini API and Streamlit. Involved prompt engineering, real-time response handling, and
+          UI integration. Featured mentorship from Google speakers.
+        </p>
+      </article>
+
+      <article class="achievement-card">
+        <div class="card-accent-line accent-magenta"></div>
+        <div class="achievement-meta">
+          <span class="achievement-badge badge-magenta">2ND PLACE</span>
+        </div>
+        <h3 class="achievement-title">Sunflower Hackathon</h3>
+        <p class="achievement-desc">
+          Secured 2nd place for developing "Progress Timeline," an interactive academic planning
+          platform. Featured color-coded task indicators, automated study suggestions, midterm/final
+          markers, and email-based progress summaries.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="section-header">
+      <span class="section-tag">&lt;contact&gt;</span>
+      <h2 class="section-title">Open Channel</h2>
+      <p class="section-sub">Ready for collaborations, opportunities, or cybersecurity discussions.</p>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-terminal">
+        <div class="terminal-row">
+          <span class="terminal-label">$ email</span>
+          <a href="mailto:chanram.620@gmail.com" class="terminal-value link-glow">chanram.620@gmail.com</a>
+        </div>
+        <div class="terminal-row">
+          <span class="terminal-label">$ phone</span>
+          <span class="terminal-value">+1 (201) 589-7830</span>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <a href="mailto:chanram.620@gmail.com" class="btn btn-ghost">Email Me</a>
+        <a href="https://www.linkedin.com/in/ramchandrakadiya/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-neon">LinkedIn</a>
+        <a href="https://github.com/Kcram0" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-line"></div>
+    <p class="footer-text">
+      <span class="footer-blink">_</span> &copy; 2026 Ramchandra Kadiya // All Systems Operational
+    </p>
+  </footer>
+
+  <script src="1page1.js"></script>
+  <script>
+    window.SaPyBaseConfig = {
+      apiKey: "sb_L5mDOWgfl9kGFFoR_uRpiEPeXU1DXAKTSHPj1IH7acU",
+      apiUrl: "https://sapyai.onrender.com"
+    };
+  </script>
+  <script src="https://www.sapybase.com/widget.js" defer></script>
+</body>
+
+</html>
